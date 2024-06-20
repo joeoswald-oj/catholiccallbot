@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botpress Chatbot</title>
-    <!-- Botpress Embed Script -->
+    <title>Discernment Tool Chatbot</title>
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-    <script src="https://mediafiles.botpress.cloud/7c6fbe30-d777-44f4-8c04-efd2f2df8f3f/webchat/config.js" defer></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with Discernment Tool",
+          "botConversationDescription": "Discern your catholic calling",
+          "botId": "7c6fbe30-d777-44f4-8c04-efd2f2df8f3f",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "7c6fbe30-d777-44f4-8c04-efd2f2df8f3f",
+          "webhookId": "4b89f85b-2a7b-4551-a18c-1f7eee52e623",
+          "lazySocket": true,
+          "themeName": "prism",
+          "botName": "Discernment Tool",
+          "frontendVersion": "v1",
+          "theme": "prism",
+          "themeColor": "#2563eb",
+          "allowedOrigins": []
+      });
+    </script>
 </head>
 <body>
 </body>
